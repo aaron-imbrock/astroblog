@@ -62,6 +62,11 @@ h1 {
   display: unset;
 }
 
+.astro-code {
+  background-color: #ff9776;
+  outline: thick double #32a1ce;
+}
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
@@ -74,6 +79,9 @@ h1 {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+  .hamburger {
+    display: none;
   }
 
 }
